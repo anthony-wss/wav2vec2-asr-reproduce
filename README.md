@@ -32,6 +32,12 @@ If the call is in `with processor.as_target_processor():`, the call would be dir
 
 `group_by_length`: can significantly speed up the training by grouping the inputs of similar length.
 
+## Future work
+
+- [ ] Add PER, CER metirc
+- [ ] Add more upstream model
+- [ ] Add more datasets
+- [ ] Merge with language model during decoding
 
 ## Reference
 * codes: https://huggingface.co/blog/fine-tune-wav2vec2-english
